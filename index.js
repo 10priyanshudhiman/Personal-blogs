@@ -32,7 +32,3 @@ const PORT = process.env.PORT||5000;
 app.listen(PORT);
 
 
-// 934764003681-llv1nn37hm959ht2fv3gg31c6jodgj8o.apps.googleusercontent.com
-// cHzHFHgEUaRJzSHFvRUIUF-w
-// mongodb+srv://Priyanshu:priyanshu310@cluster0.b9sve.mongodb.net/personalblogDB
-// sdfskjfsbfskfsbfsldfnsbfsnfbfsndfnfsd
