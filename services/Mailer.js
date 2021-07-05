@@ -1,3 +1,6 @@
+// This is not Working // Because I don't have a Domain//
+// Complete it later//
+
 const sendgrid = require('sendgrid');
 const helper = sendgrid.mail;
 
@@ -8,7 +11,7 @@ class Mailer extends helper.Mail {
         super();
 
         this.sgApi = sendgrid(keys.sendGridKey);
-        this.from_email = new helper.Email('no-reply@personalsurveys.com');
+        this.from_email = new helper.Email('no-reply@emaily.com');
         this.subject = subject;
         this.body = new helper.Content('text/html', content);
         this.recipients = this.formatAddresses(recipients);
