@@ -9,7 +9,7 @@ require('./models/User');
 require('./models/Survey');
 require('./services/passport');
 
-
+mongoose.Promise = global.Promise;
 mongoose.connect(keys.mongoURI,{ useNewUrlParser: true});
 
 
