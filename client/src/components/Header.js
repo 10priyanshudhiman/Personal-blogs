@@ -13,7 +13,15 @@ class Header extends React.Component {
                 );
 
             default:
-                return <li><a href = "/api/logout">Logout</a></li>;
+                return [
+                    <li key='3' style={{margin:'0 10px'}}>
+                        <Link to = "/surveys"> My Surveys </Link>
+
+                    </li>,
+                <li key ='2'>
+                    <a href = "/api/logout">Logout</a>
+                </li>
+                ];
 
         }
     }
