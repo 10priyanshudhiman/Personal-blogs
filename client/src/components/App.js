@@ -7,6 +7,7 @@ import Header from './Header';
 import Landing from './Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
+import Surveyshow from './surveys/Surveyshow';
 
 class  App extends Component {
 
@@ -24,6 +25,7 @@ class  App extends Component {
                    <Header/>
                    <Route exact path = "/" component = {Landing}/>
                    <Route exact path = "/surveys" component = {Dashboard}/>
+                   <Route exact path = "/surveys/:_id" component = {Surveyshow}/>
                    <Route path = "/surveys/new" component = {SurveyNew}/>
                    
                </div>
